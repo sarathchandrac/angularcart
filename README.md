@@ -1,1 +1,1 @@
-Sample Angular Application`
+Sample Angular Application
