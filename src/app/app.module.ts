@@ -1,3 +1,5 @@
+import { UserService } from './user.service';
+import { AuthService } from './auth.service';
 import { LoginComponent } from './login/login.component';
 import { environment } from './../environments/environment';
 import { BrowserModule } from '@angular/platform-browser';
@@ -78,7 +80,10 @@ import { AdminOrdersComponent } from './admin/admin-orders/admin-orders.componen
       }
     ])
   ],
-  providers: [],
+  providers: [
+    AuthService,
+    UserService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
