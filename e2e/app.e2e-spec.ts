@@ -1,10 +1,10 @@
-import { AppPage } from './app.po';
+import { OshopPage } from './app.po';
 
-describe('ocart App', () => {
-  let page: AppPage;
+describe('oshop App', () => {
+  let page: OshopPage;
 
   beforeEach(() => {
-    page = new AppPage();
+    page = new OshopPage();
   });
 
   it('should display welcome message', () => {
